@@ -1,5 +1,6 @@
 {
   "id": "bun-feature",
   "version": "1.0.0",
-  "name": "Bun feature"
+  "name": "Bun feature",
+  "installsAfter": ["ghcr.io/devcontainers/features/node"]
 }
