@@ -1,8 +1,12 @@
 {
   "$schema": "https://raw.githubusercontent.com/devcontainers/spec/refs/heads/main/schemas/devContainer.base.schema.json",
   "image": "mcr.microsoft.com/devcontainers/typescript-node",
-  "forwardPorts": [3000],
-  "runArgs": ["--network=app-network"],
+  "forwardPorts": [
+    3000
+  ],
+  "runArgs": [
+    "--network=test-next_app-network"
+  ],
   "features": {
     "./bun-feature": {}
   }
